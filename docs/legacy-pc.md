@@ -41,8 +41,10 @@ This system is planned to become the primary virtualization server for the Perso
 |----------|-------|
 | Model | Intel Core i5-8400 |
 | Base Clock | 2.80 GHz |
+| Sockets | 1 |
 | Cores | 6 |
-| Threads | 6 |
+| Logical Processors | 6 |
+| Virtualization | Enabled |
 
 ---
 
@@ -58,6 +60,8 @@ This system is planned to become the primary virtualization server for the Perso
 |----------|-------|
 | Installed Capacity | 16 GB |
 | Configuration | 2 × 8 GB SK hynix |
+| Speed | 2400 MHz |
+| Form Factor | DIMM |
 | DIMM Slots | 4 Total |
 | Slots In Use | 2 |
 | Empty Slots | 2 |
@@ -66,16 +70,17 @@ This system is planned to become the primary virtualization server for the Perso
 
 ## Graphics Card
 
-Currently Installed
+| Property | Value |
+|----------|-------|
+| Model | Radeon RX 580 Series |
+| Dedicated Memory | 4 GB |
 
 ### Video Outputs
 
 - 2 × HDMI
 - 2 × DisplayPort
 - 1 × DVI-D
-
-GPU model currently unknown.
-
+- 
 ---
 
 ## Storage
@@ -161,14 +166,12 @@ Planned responsibilities:
 
 ## Outstanding Tasks
 
-- Determine GPU model
 - Determine power supply model
-- Determine RAM speed
-- Verify VT-x and VT-d enabled
+- Determine RAM speed details/timing
 - Check SMART health of all drives
-- Document Temperatures
-- Recover or reinstall Windows
-- Verify virtualization support
+- Document idle and load Temperatures
+- Determine exact Windows edition/license status
+- Decide final proxmox storage layout
 - Clean system
 
 ---
@@ -181,5 +184,6 @@ Planned responsibilities:
 - CPU identified.
 - Storage configuration documented.
 - BIOS version recorded.
+- Performance Specs recorded.
 
 ---
