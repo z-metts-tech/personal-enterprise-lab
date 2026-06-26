@@ -26,9 +26,23 @@ This system is planned to become the primary virtualization server for the Perso
 
 ---
 
+## BIOS
+
+| Property | Value |
+|----------|-------|
+| Version | E7B24IMS.231 |
+| Hardware Monitor | Present |
+
+---
+
 ## CPU
 
-Unknown
+| Property | Value |
+|----------|-------|
+| Model | Intel Core i5-8400 |
+| Base Clock | 2.80 GHz |
+| Cores | 6 |
+| Threads | 6 |
 
 ---
 
@@ -66,18 +80,24 @@ GPU model currently unknown.
 
 ## Storage
 
-### SSD
+### M.2 SSD
 
-- Samsung SATA SSD
-    - Capacity: 1 TB
+| Drive | Capacity |
+|------|----------|
+| WD Blue SATA M.2 | 500 GB |
+
+### SATA SSD
+
+| Drive | Capacity |
+|------|----------|
+| Samsung 860 EVO | 1 TB |
 
 ### Hard Drives
 
-- Drive 1
-    - Capacity Unknown
-
-- Drive 2
-    - Capacity Unknown
+| Drive | Capacity |
+|------|----------|
+| WD Blue WD10EZEX | 1 TB |
+| WD Enterprise WD4000FYYZ | 4 TB |
 
 ---
 
@@ -126,17 +146,27 @@ Wi-Fi adapter damaged and removed.
 
 ## Planned Role
 
-Primary Proxmox Virtualization Host
+Primary Proxmox virtualization host for the Personal Enterprise Lab.
+
+Planned responsibilities:
+
+- Virtual Machines
+- Docker Containers
+- Central Storage
+- Active Directory
+- Monitoring
+- Security Lab
 
 ---
 
 ## Outstanding Tasks
 
-- Determine CPU model
 - Determine GPU model
-- Determine HDD capacities
 - Determine power supply model
-- Check BIOS version
+- Determine RAM speed
+- Verify VT-x and VT-d enabled
+- Check SMART health of all drives
+- Document Temperatures
+- Recover or reinstall Windows
 - Verify virtualization support
-- Check drive health
 - Clean system
