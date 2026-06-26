@@ -170,3 +170,16 @@ Planned responsibilities:
 - Recover or reinstall Windows
 - Verify virtualization support
 - Clean system
+
+---
+
+## Chnage Log
+
+### 2026-06-25
+
+- Initial hardware inventory completed.
+- CPU identified.
+- Storage configuration documented.
+- BIOS version recorded.
+
+---
